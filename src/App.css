@@ -1,0 +1,36 @@
+:root{
+  --HeaderBackgroundColor:#eeeeee;
+}
+*{
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+header{
+  background-color: var(--HeaderBackgroundColor);
+}
+.allProducts{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  padding: 10px;
+  justify-content: center;
+}
+.productCard{
+  padding: 5px;
+  -webkit-box-shadow: inset 0px 6px 14px 0px rgba(0,0,0,0.51);
+  -moz-box-shadow: inset 0px 6px 14px 0px rgba(0,0,0,0.51);
+  box-shadow: inset 0px 6px 14px 0px rgba(0,0,0,0.51);
+  border:solid black thin;
+  text-align: center;
+}
+img{
+  width: 199px;
+  height: 199px;
+}
+.cartbutton{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
